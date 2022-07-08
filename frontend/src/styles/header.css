@@ -1,0 +1,219 @@
+div.header{
+    background-color: #212e42 ;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+div.header div.headerContent{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div.header div.headerContent nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.header div.headerContent nav div.userContent {
+    margin:0 auto 1rem auto;
+    background-color: #2868ce;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+div.header div.headerContent h3.logo{
+    padding: 1rem 0;
+}
+
+div.header div.headerContent nav img.photoUser{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+
+div.header div.headerContent nav div.userContent p.userName{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+div.header div.headerContent nav a.link{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #2868ce;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+div.header div.headerContent nav a.link:hover{
+    background-color: #012f7a;
+}
+
+div.header div.headerContent h3.logo{
+    color:whitesmoke;
+}
+
+
+div.header div.headerContent h3.logo{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    div.header div.headerContent{
+        justify-content: space-between;
+        width:85%;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    div.header div.headerContent nav{
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    div.header div.headerContent h3.logo{
+        padding: 2rem;
+    }
+    
+    div.header div.headerContent nav a.link{
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        height: fit-content;
+        font-size: 1.5rem;
+    }
+    div.header div.headerContent nav div.userContent{
+        display:none;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    div.header div.headerContent nav div.userContent {
+        margin:1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        padding: 0;
+        width: auto;
+    }
+    div.header div.headerContent nav div.userContent img.photoUser{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+        display: flex;
+    }
+    div.header div.headerContent nav div.userContent p.userName{
+        color: whitesmoke;
+        font-size: 1.2rem;
+    }
+}
+
+div.footer{
+    background-color: #212e42;
+}
+
+#dropdown-basic-button {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2868ce;
+    padding: 0.5rem;
+    border: none;
+    
+    margin-bottom: 0rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    height: fit-content;
+    font-size: 1.5rem;
+    width: 100%!important;
+}
+
+@media (max-width: 768px) {
+    #dropdown-basic-button {
+        width: 20vh;
+        margin-bottom: 1rem;
+        border-radius: 0rem;
+        margin-left: 0rem;
+    }
+}
+
+.dropdown-menu a{
+    font-size: 1.5rem;
+    padding: 1rem!important;
+    color: #212e42;
+}
+
+.dropdown-menu a:hover{
+    background-color: #2868ce;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.dropdown-menu:hover{
+    color: whitesmoke;
+}
+
+div.description p {
+    color: #CCBB77;
+    font-size: 1.2rem;
+}
+div.description {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: small;
+    justify-content: center;
+    background-color: #212e42;
+    padding: 2rem 0 0 0;
+    
+}
+
+div.logos {
+    text-align: center;
+    color: #6A7381;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212e42;
+    
+}
+div.logos img{
+width: 15%;
+}
+
+div.logos h3{
+    margin-bottom: 1.5rem;
+}
+
+img.logo{
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    img.logo{
+        width: 40%;
+    }
+}

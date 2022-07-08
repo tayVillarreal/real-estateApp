@@ -1,0 +1,114 @@
+.comments{
+    max-height: 45vh;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+.commentsContainer{
+    width:  60%;
+    margin:auto;
+    background-color:  #212e42 ;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+@media (max-width:768px ) {
+    .commentsContainer{
+        width:  90%;
+        
+    }
+}
+.commentContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0rem auto 0.5rem auto;
+    border: 1px solid  #2868ce ;
+    padding:0.5rem;
+    border-radius: 1rem;
+    background-color:#012f7a79;
+    flex-wrap: wrap;
+}
+.commentContainer:last-of-type{
+margin-bottom: 0;
+}
+
+.nameDelete{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+}
+.title{
+    text-align: center;
+    color: #6a93d3;
+    font-size: 2rem;
+}
+
+.userName{
+    color: whitesmoke;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    text-decoration-color: whitesmoke;
+}
+
+.deleteButton{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 1rem;
+    font-weight: bold;
+    
+}
+.comment{
+    margin:0 auto;
+    word-wrap: break-word;
+    width: 80%;
+    overflow-x: auto;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.inputContainer{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem auto;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #ffffffa9;
+    border-radius: 1rem;
+}
+
+.submitBtn{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #2868ce;
+    border:none;
+}
+.submitBtn:hover{
+    background-color: #072a61;
+    color: whitesmoke;
+    -webkit-transition: all 0.2s ease;
+    transition: all 1s ease-in-out;
+
+}

@@ -1,0 +1,220 @@
+.mainContainer {
+    background-color:#6a93d3;
+}
+.mainBackground {
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titleFilter{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.divFilter {
+    width: 80%;
+    height: 40%; 
+    background-color: rgba(72,69,64,.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.divFilter h1 {
+    text-align: center;
+    font-size: 5vh;
+}
+
+.filterSelects{
+    display:flex;
+    width: 80%;
+    margin-top: 1rem;
+}
+@media (min-width: 768px) {
+    
+}
+.inputSelect{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    border: none;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.61);
+}
+
+.btnFilter{
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    width: 20%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    border: none;
+    background-color:#212e42;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+}
+.btnFilter:hover{
+    color: whitesmoke;
+    background-color:#2868ce;
+    
+    -webkit-transition: all 0.2s ease;
+    transition: all 1s ease-in-out;
+}
+@media (max-width: 768px) {
+    .filterSelects{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .divFilter {
+        width: 80%;
+        height: 60%; 
+        
+    }
+    .inputSelect{
+        display: flex;
+        margin: 1rem auto;
+        width: 80%;
+    }
+    .btnFilter{
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+        width: 60%;
+    }
+}
+
+div.mainContainerHouses{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+div.containerHouse{
+    width: 100%;
+    background-color:#212e42;
+    padding: 2rem;
+    margin:1rem auto;
+    border-radius: 1rem;
+    border: solid;
+    border-color: #8db1eb;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    margin-bottom: 2rem;
+}
+
+div.divPhoto{
+    width: 50%;
+}
+
+div.containerHousePhoto{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+div.containerHousePhoto img{
+    width:95%;
+    object-fit: cover;
+    object-position: center center;
+    height: 35vh;
+    border-radius: 1rem;
+    border: solid;
+    border-color: #6a92d32d;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    margin-bottom: 1rem;
+}
+
+div.containerHouseDetails{
+    width: 50%;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+@media (max-width:768px ) {
+    div.containerHouseDetails{
+        font-size: 1.5rem;
+    }
+    div.containerHousePhoto img{
+        width:100%;
+        height: 20vh;
+    }
+    div.mainContainerHouses{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+}
+
+@media (max-width:472px ) {
+    div.containerHouseDetails{
+        font-size: 1.3rem;
+    }
+    div.containerHousePhoto img{
+        width:100%;
+        height: 15vh;
+    }
+    div.mainContainerHouses{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+}
+
+div.containerBtn{
+    display: flex;
+    width:100%;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+div.containerBtn p{
+    color: whitesmoke;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+button.btnDetails {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color:#2868ce;
+    color: whitesmoke;
+}
+
+button.btnDetails:hover{
+    color: whitesmoke;
+    background-color:#072a61;
+    -webkit-transition: all 0.2s ease;
+    transition: all 1s ease-in-out;
+}
+
+div.containerBtn p{
+    font-size: 1.2rem;
+} 

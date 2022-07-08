@@ -1,0 +1,115 @@
+
+div.details{
+    display: flex;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: #212e42;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+}
+.mainHousesContainer{
+    background-color:#6a93d3 ;
+    width: 100%; ;
+}
+
+.titleHouses{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight:700;
+    color: #6a93d3;
+    background-color: #212e42;
+    margin-bottom: 2rem;
+    border-top: solid 3px  #45608b;
+}
+
+.moreBtn{
+    padding: 1rem;
+    color:#6a93d3 ;
+    font-size: 2rem;
+    text-align: center;
+    margin:0rem 0rem 1rem 3rem;
+    display: inline;
+    background-color: whitesmoke;
+    font-weight: 700;
+    border-radius: 1rem;
+    border: none;
+}
+
+.moreBtn:hover{
+    color: whitesmoke;
+    background-color: #212e42;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 730px) {
+    .house{
+        width: 85%;
+    }
+}   
+
+@media (max-width: 2000px) {
+    .containerHouses{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .firstFour{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .house{
+        width: 45%;
+        height: 30%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .house img{
+        width: 100%;
+        height: 40vh;
+        margin: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .firstFour{
+        display:flex;
+        flex-direction: column;
+    }
+    .house{
+        width: 90%;
+        height: 30%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .containerHouses{
+        width: 100%;
+    }
+    .firstFour{
+        display:flex;
+        flex-direction: column;
+    }
+    .house{
+        margin-bottom: 3rem;
+    }
+    .house img{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+}
